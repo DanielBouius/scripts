@@ -102,6 +102,6 @@ define service {
       notification_period             24x7
       notifications_enabled           1
       register                        1
-} " >> /usr/local/nagios/etc/servers/$devicename.cfg 
+} " > /usr/local/nagios/etc/servers/$devicename.cfg 
 done
 
